@@ -30,8 +30,8 @@ class Cloner {
 	 *
 	 * @param AttachmentAdapter $attachment
 	 */
-	public function __construct(AttachmentAdapter $attachment = null,
-		Events $events = null) {
+	public function __construct(?AttachmentAdapter $attachment = null,
+		?Events $events = null) {
 		$this->attachment = $attachment;
 		$this->events = $events;
 	}
